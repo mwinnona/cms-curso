@@ -1,0 +1,183 @@
+body {
+    background:#365443;
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    
+  }
+
+#loginbox{
+    width:320px;
+    height:400px;
+    background:#960cf3;
+    border: 1px solid rgb(94, 4, 240);
+    padding:70px 30px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translate(-0%, 0%);        
+}
+
+#box{
+    
+    background:#e6e6e6;
+    padding:70px 30px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#admintitle{
+    margin:10px auto;
+    padding:10px;
+    
+    color: #ffffff;
+    transform: translate(130%,-160%);
+    font-family: 'Righteous', cursive;
+
+}
+#logintitle{
+    margin:10px auto;
+    padding:10px;
+    width:300px;
+    color:#08aa59a4;
+    transform: translate(205%,-160%);
+     font-family: 'Righteous', cursive;
+}
+
+#modifiedtitle{
+    margin:10px auto;
+    padding:10px;
+    width:300px;
+    color:#08aa59a4;
+    transform: translate(185%,-160%);
+     font-family: 'Righteous', cursive;
+}
+#hometitle{
+    margin:10px auto;
+    padding:10px;
+    width:300px;
+    color:#ddf1e7;
+    transform: translate(0%,0%);
+     font-family: 'Montserrat', sans-serif;
+}
+#signtitle{
+    margin:10px auto;
+     padding:10px;
+     width:300px;
+     color:#08aa59a4;
+     transform: translate(140%,-160%);
+     font-family: 'Righteous', cursive;
+}
+
+#title{
+    padding: 10px ;
+    margin:10px AUTO;
+    width: 300px;
+    text-align: center;
+    transform: translate(150%,-295%);
+}
+
+ a{
+    text-decoration: none;
+    font-family: 'Monserrat', sans-serif;
+    color: #333333;
+}
+
+#atitle{
+    padding: 10px ;
+    margin:10px auto;
+    width: 300px;
+    text-align: center;
+    color: #ffffff;
+    transform: translate(210%,-400%);
+}
+
+#homeatitle{
+    padding: 10px ;
+    margin:10px auto;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Monserrat', sans-serif;
+    color: #ffffff;
+    transform: translate(-170%,-130%);
+}
+
+
+
+#loginform{
+    transform: translate(-25%, 20%);
+}
+
+#signform{
+    transform: translate(-30%, 20%);
+}
+
+input[type="text"],input[type="password"],select,option{
+    outline: none;
+    display: block;
+    width: 300px;
+    border-radius: 3px;-
+    border: 1px solid #eee;
+    padding: 10px;
+    margin:  20px auto; 
+    margin-top: 0;
+    margin-left: 1em;
+    margin-right: 0.7em;
+    
+}
+input[type="text"]:hover,input[type="password"]:hover,select:hover,option :hover{
+    border: 1px solid #4CAF50;
+
+}
+
+ button[type="submit"]{
+    background-color: rgb(41, 129, 44);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    
+    padding: 10px;
+    margin:  20px auto;
+    margin-top: 0;
+    border: none;
+}
+
+ button[type="submit"]:hover{
+    
+    background-color: #4CAF50;
+}
+
+#rememberme{
+    font-family: 'Montserrat', sans-serif;
+    transform: translate(-25%, 50%);  
+}
+
+table {
+    width: 100%;
+    transform: translate(-30%,0%);
+ }
+ td {
+    width: 25%;
+    text-align: left;
+    vertical-align: center;
+    border-bottom: 1px solid #365443;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+ }
+
+
+
+
